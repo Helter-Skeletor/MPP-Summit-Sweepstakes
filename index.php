@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<title>Install and Win! :: Worthington Joining Technologies</title>
+<title>Summit Sweepstakes! :: Mansfield Plumbing Products</title>
 
 <?php require_once('commonHeader.inc'); ?>
 

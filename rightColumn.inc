@@ -14,10 +14,9 @@
 				<div class="rightColumn">
 					<h1 class="title hideOnTablet hideOnMobile">&nbsp;</h1>
 					<p>Complete the form.</p>
-					<p>Click on the button to <strong>UPLOAD</strong> a photo of your display.</p>
 					<p>Then click <strong>ENTER</strong>.</p>
 					<p>You’ll receive an email confirming your entry.</p>
-					<p>Good luck and good selling!</p>
+					<p>Good luck!</p>
 					<p><a class="prizeLink">SEE PRIZES</a><br />
 						<a class="rulesLink">READ RULES</a></p>
 				</div>
