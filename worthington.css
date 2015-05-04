@@ -1,0 +1,235 @@
+body {
+	background-color: #b7bdc3;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+html {
+	max-width: 1120px;
+	position: relative;
+	margin: 0 auto;
+}
+
+a, a:link, a:active, a:visited, a:hover {
+	color: #00b7f0;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #bf6e2c;
+}
+
+h1 {
+	color: #00b7f0;
+}
+
+h1.title {
+	text-transform: uppercase;
+	font-size: 1.3em;
+	letter-spacing: 2px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border: none;
+}
+
+input[type=file]#image_file {
+	width: 170px;
+	height: 35px;
+}
+
+input[type=text] {
+	width: 65%;
+	margin-bottom: 7px;
+	border: 2px solid white;
+}
+
+input[type=text].error {
+	border-color: red;
+}
+
+label {
+	color: white;
+	font-size: 0.8em;
+	width: 30%;
+	text-align: right;
+	display: inline-block;
+}
+
+label.error {
+	display: none !important;
+}
+
+p {
+	color: white;
+	font-size: 0.9em;
+}
+
+[class*='col-'] {
+	padding-right: 12px; /* column-space */
+}
+
+#select_file {
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+	font-size: 0.7em;
+}
+
+#submitButton, #uploadButton, #image_file {
+	cursor: pointer;
+}
+
+.btnclosePrizes, .btncloseRules {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	cursor: pointer;
+}
+
+.clearAll {
+	clear: both;
+	height: 1px;
+}
+
+.content {
+	background: none;
+	padding: 10px;
+}
+
+.hideOnTablet {
+	display: inherit;
+}
+
+.mobileCenter {
+	text-align: inherit;
+}
+
+.prizes {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 378px;
+	position: relative;
+}
+
+.rules {
+	max-width: 100%;
+	background: #b7bdc3;
+	position: relative;
+	margin: 12px 12px;
+}
+
+.rules .interior {
+	margin: 12px 12px;
+}
+
+.rules .interior h2 {
+	padding-top: 12px;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	color: #055392;
+}
+
+.rules .interior p {
+	font-size: 0.75em;
+}
+
+.showOnTablet, .showOnMobile {
+	display: none;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1116px;
+	background: #055392 url('/images/header-background.jpg') top center no-repeat;
+	background-size: 100%;
+}
+
+/* Files Upload CSS */
+div.fileinputs {
+	position: relative;
+	margin-left: 31%;
+	margin-top: 7px;
+}
+
+div.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+input.file {
+	position: relative;
+	text-align: right;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+}
+
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+	.hideOnTablet {
+		display: none;
+	}
+
+	.mobileCenter {
+		text-align: center;
+	}
+
+	.rightColumn {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+		max-width: 479px;
+	}
+
+	.rules {
+		/*position: absolute;*/
+		max-width: 100%;
+		max-height: auto;
+	}
+
+	.rules .interior {
+		overflow: visible;
+	}
+
+	.showOnTablet {
+		display: block;
+	}
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+	input[type=text] {
+		width: 100%;
+		margin-bottom: 14px;
+	}
+
+	label {
+		width: auto;
+		text-align: left;
+		display: block;
+	}
+
+	.showOnTablet {
+		display: none;
+	}
+
+	.showOnMobile {
+		display: block;
+	}
+
+	div.fileinputs {
+		margin-left: auto;
+	}
+}
